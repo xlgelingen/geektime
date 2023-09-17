@@ -1,11 +1,13 @@
 body{
     /* width: 100%; */
-    font: 400 1em/1.8 PingFang SC,Avenir,Tahoma,Arial,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif !important;
+    overflow-y: scroll;
+}
+body, button, input, select, textarea{
+    font: 400 1em/1.8 PingFang SC,Avenir,Tahoma,Arial,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    overflow-y: scroll;
 }
 
 body .page-header{
@@ -18,6 +20,7 @@ body .page-header{
 .page-header .header-container{
     min-width: inherit;
     height: 65px;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
     background: #fff;
     border-bottom: 1px solid #eaeaea;
 }
@@ -54,7 +57,6 @@ body .page-header{
     white-space: nowrap;
 }
 .header-left .header-left-menu .header-left-item{
-    /* position: relative; */
     display: flex;
     padding: 8px 19px;
     line-height: 20px;
@@ -68,8 +70,8 @@ body .page-header{
     padding-left: 33px;
 }
 .header-left .header-left-menu .header-left-item .item-link{
+    line-height: 20px;
     position: relative;
-    line-height: 1;
 }
 .header-left .header-left-menu .header-left-item .item-link img{
     position: absolute;
@@ -115,7 +117,6 @@ body .page-header{
     border-radius: 8px;
     border: 1px solid #fa8919;
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
 .header-right .header-right-search .search-box .search-input-wrapper{
     flex: 1 1 auto;
@@ -125,7 +126,6 @@ body .page-header{
 .header-right .header-right-search .search-box .search-input-wrapper .search-input{
     width: 100%;
     font-size: 12px;
-    /* font-weight: 400; */
     color: #353535;
     outline: none;
     border: none;
@@ -174,7 +174,6 @@ body .page-header{
     display: block;
     line-height: 22px;
     font-weight: 500;
-    /* cursor: pointer; */
 }
 .header-right .header-right-signin .signin-box .pc.in::after{
     content: "|";
