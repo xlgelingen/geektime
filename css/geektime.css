@@ -27,11 +27,9 @@ body .page-header{
 .page-header .header-container .header-wrap{
     position: relative;
     width: 1200px;
-    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .header-wrap .header-right, .header-wrap .header-left{
     display: flex;
@@ -46,15 +44,11 @@ body .page-header{
     background-size: contain;
 }
 .header-left .header-left-menu{
-    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
     margin-left: 21px;
-    opacity: 1;
-    transition: opacity .3s ease-out;
-    white-space: nowrap;
+    /* opacity: 1; */
+    /* transition: opacity .3s ease-out; */
+    /* white-space: nowrap; */
 }
 .header-left .header-left-menu .header-left-item{
     display: flex;
@@ -70,7 +64,6 @@ body .page-header{
     padding-left: 33px;
 }
 .header-left .header-left-menu .header-left-item .item-link{
-    line-height: 20px;
     position: relative;
 }
 .header-left .header-left-menu .header-left-item .item-link img{
@@ -104,7 +97,6 @@ body .page-header{
     transform: scale(0.6) translateY(1px) rotate(180deg);
 }
 .header-right .header-right-search{
-    position: relative;
     margin-left: 20px;
     margin-right: 36px;
     width: 320px;
@@ -158,7 +150,6 @@ body .page-header{
 
 .header-right .header-right-signin{
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 65px;
     line-height: 100%;
