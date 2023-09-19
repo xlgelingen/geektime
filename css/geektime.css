@@ -601,7 +601,7 @@ body .page-body{
 }
 .hot-study-section .el-hot-course .hot-course-content .hot-content-price{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin-top: 31px;
 }
